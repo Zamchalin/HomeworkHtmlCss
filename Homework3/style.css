@@ -96,6 +96,7 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding: 15px 35px 16px 36px;
 }
 .watch_video {
   color: #aaa;
@@ -104,6 +105,10 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding: 0;
+  border: none;
+  background: none;
+  margin-left: 108px;
 }
 .logotypes {
   display: flex;
