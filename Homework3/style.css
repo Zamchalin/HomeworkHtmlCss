@@ -15,9 +15,13 @@ header {
 }
 .logotype_site {
   display: flex;
+  margin-top: 40px;
 }
 .logo_name {
   display: flex;
+  margin-left: 14px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .Grow {
   color: #000;
@@ -34,6 +38,12 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.navigation {
+  display: flex;
+  gap: 30px;
+  margin-left: 500px;
+  margin-top: 51px;
 }
 .nav__link {
   color: #000;
@@ -64,6 +74,8 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-top: 84px;
+  margin-bottom: 17px;
 }
 .info {
   color: #888;
@@ -72,11 +84,18 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 37px;
 }
 .start_now {
   border-radius: 50px;
   background: #f25822;
   box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  color: #fff;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 .watch_video {
   color: #aaa;
@@ -85,4 +104,8 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.logotypes {
+  display: flex;
+  gap: 48px;
 }
