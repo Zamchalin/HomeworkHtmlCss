@@ -8,6 +8,10 @@
 }
 header {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .page {
   width: 1920px;
@@ -67,17 +71,32 @@ header {
   border: 0px;
   outline: 0px;
 }
+.main_info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 375px;
+}
+.text__info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
 .head h1 {
+  width: 522px;
   color: #000;
   font-family: Gilroy-Bold;
   font-size: 60px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-top: 84px;
+  margin-top: 89px;
   margin-bottom: 17px;
 }
 .info {
+  width: 444px;
   color: #888;
   font-family: Gilroy-Medium;
   font-size: 20px;
@@ -113,4 +132,15 @@ header {
 .logotypes {
   display: flex;
   gap: 48px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 97px;
+  margin-top: 162px;
+}
+.main_img {
+  margin-top: 89px;
+  margin-left: 41px;
 }
