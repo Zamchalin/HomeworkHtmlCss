@@ -1,0 +1,116 @@
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url(./fonts/gilroy-bold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+}
+.page {
+  width: 1920px;
+  background-color: #ffffff;
+}
+.logotype_site {
+  display: flex;
+  margin-top: 40px;
+}
+.logo_name {
+  display: flex;
+  margin-left: 14px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.Grow {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.Be {
+  color: #f25822;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.navigation {
+  display: flex;
+  gap: 30px;
+  margin-left: 500px;
+  margin-top: 51px;
+}
+.nav__link {
+  color: #000;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+.nav__link--other {
+  color: #f25822;
+  font-family: Gilroy-SemiBold;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+.select-form-control {
+  border: 0px;
+  outline: 0px;
+}
+.head h1 {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 84px;
+  margin-bottom: 17px;
+}
+.info {
+  color: #888;
+  font-family: Gilroy-Medium;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 37px;
+}
+.start_now {
+  border-radius: 50px;
+  background: #f25822;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  color: #fff;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 15px 35px 16px 36px;
+}
+.watch_video {
+  color: #aaa;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0;
+  border: none;
+  background: none;
+  margin-left: 108px;
+}
+.logotypes {
+  display: flex;
+  gap: 48px;
+}
