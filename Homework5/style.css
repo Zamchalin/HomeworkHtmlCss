@@ -159,6 +159,9 @@ header {
   margin-left: 375px;
   margin-top: 125px;
 }
+.text_info_page2 {
+  z-index: 0;
+}
 .heading_page2 h1 {
   width: 409px;
   color: #000;
@@ -178,6 +181,9 @@ header {
   font-weight: 400;
   line-height: 150%; /* 24px */
 }
+.buttons_page2 {
+  z-index: 1;
+}
 .Learn_more {
   margin-top: 35px;
   padding: 16px 31px;
@@ -194,4 +200,25 @@ header {
 .main_picture_page2 {
   margin-top: -150px;
   margin-left: -33px;
+  z-index: 1;
+}
+.vectors {
+  margin-top: -594px;
+  margin-left: -618px;
+}
+.vector1 {
+  position: absolute;
+  width: 2895.111px;
+  height: 467.398px;
+  transform: rotate(2.095deg);
+  flex-shrink: 0;
+  z-index: 0;
+}
+.vector2 {
+  position: absolute;
+  width: 2895.111px;
+  height: 467.398px;
+  transform: rotate(2.095deg);
+  flex-shrink: 0;
+  z-index: 0;
 }
