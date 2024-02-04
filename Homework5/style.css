@@ -152,6 +152,9 @@ header {
   margin-top: 89px;
   margin-left: 41px;
 }
+.page_2 {
+  background: rgb(250, 250, 250);
+}
 .main_info_page2 {
   display: flex;
   flex-direction: row;
@@ -202,11 +205,11 @@ header {
   margin-left: -33px;
   z-index: 1;
 }
-.vectors {
+/* .vectors {
   margin-top: -594px;
   margin-left: -618px;
-}
-.vector1 {
+} */
+/* .vector1 {
   position: absolute;
   width: 2895.111px;
   height: 467.398px;
@@ -221,4 +224,123 @@ header {
   transform: rotate(2.095deg);
   flex-shrink: 0;
   z-index: 0;
+} */
+.page4 {
+  background: rgb(250, 250, 250);
+}
+.block_with_three_icons {
+  display: flex;
+  margin-left: 373px;
+  gap: 61px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.block {
+  width: 381px;
+  height: 291px;
+}
+.block h1 {
+  margin-top: 25px;
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.block p {
+  margin-top: 17px;
+  margin-bottom: 25px;
+  color: #666;
+  font-family: Gilroy-Regular;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 22.5px */
+  width: 310px;
+}
+.block span {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 16.5px */
+}
+.info_in_icon {
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.main_head_page4 {
+  color: rgb(0, 0, 0);
+  font-family: Gilroy-Bold;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 100px;
+}
+.little_text_under_head {
+  color: rgb(136, 136, 136);
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 24px;
+  width: 740px;
+  height: 44px;
+  margin-left: 590px;
+}
+.block_with_three_blocks_page4 {
+  display: flex;
+  margin-left: 373px;
+  gap: 20px;
+  margin-top: 48px;
+}
+.block_page4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.block_page4 h2 {
+  display: flex;
+  margin-top: 25px;
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  justify-content: center;
+}
+.info_about_block {
+  display: flex;
+  justify-content: center;
+  margin-top: 17px;
+  margin-bottom: 25px;
+  color: #666;
+  font-family: Gilroy-Regular;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  width: 310px;
+  text-align: center;
+}
+.button_in_block {
+  margin-top: 35px;
+  padding: 16px 31px;
+  border-radius: 50px;
+  background: #f25822;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  color: #fff;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
