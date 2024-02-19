@@ -154,6 +154,8 @@ header {
 }
 .page_2 {
   background: rgb(250, 250, 250);
+  background-image: url("img/Vector\ 2.svg");
+  background-image: url("img/Vector\ 1.svg");
 }
 .main_info_page2 {
   display: flex;
@@ -205,26 +207,7 @@ header {
   margin-left: -33px;
   z-index: 1;
 }
-/* .vectors {
-  margin-top: -594px;
-  margin-left: -618px;
-} */
-/* .vector1 {
-  position: absolute;
-  width: 2895.111px;
-  height: 467.398px;
-  transform: rotate(2.095deg);
-  flex-shrink: 0;
-  z-index: 0;
-}
-.vector2 {
-  position: absolute;
-  width: 2895.111px;
-  height: 467.398px;
-  transform: rotate(2.095deg);
-  flex-shrink: 0;
-  z-index: 0;
-} */
+
 .page4 {
   background: rgb(250, 250, 250);
 }
