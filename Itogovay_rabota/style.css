@@ -131,6 +131,7 @@ header {
   display: flex;
   align-items: center;
   gap: 15px;
+  background: #fff;
 }
 .footer_page1 {
   display: flex;
@@ -460,6 +461,7 @@ header {
   padding-bottom: 17px;
   border: none;
   border-left: 1.5px solid rgb(204, 204, 204);
+  margin-right: 30px;
 }
 .page7 {
 }
